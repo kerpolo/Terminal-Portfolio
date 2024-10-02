@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Tree Structure</title>
+    <link rel="stylesheet" href="index.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Tree Structure</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<style>
+    #play-button {
+        background: none; /* Remove background */
+        border: none; /* Remove border */
+        cursor: pointer; /* Change cursor to pointer */
+        text-align: left;
+}
+</style>
+<body>
+<h1>C:\Users\kuhteel></h1>
+<button id="play-button">⏯</button>
+    
+    <audio id="my-audio">
+        <source src="assets/Pain1993.mp3" type="audio/mpeg">
+        <source src="your-audio-file.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script>
+        const audio = document.getElementById('my-audio');
+        const button = document.getElementById('play-button');
+
+        button.addEventListener('click', () => {
+            audio.play();
+        });
+    </script>
+    <div class="tree">
+        <pre>
+├──<span class="root"> General</span>
+│   ├── <a href="mailto:nigger">Gmail</a>
+│   ├── <a href="https://github.com/kuhteel">Github</a>
+│   └── <a href="https://discord.gg/fivestarsolution">Discord</a>
+├──<span class="root"> Entertainment</span>
+│   ├── <a href="https://youtube.com">Youtube</a>
+│   ├── <a href="https://twitch.tv/kuhteel">Twitch</a>
+│   ├── <a href="https://kick.com/kuhteel">Kick</a>
+│   ├── <a href="https://www.4chan.org">4Chan</a>
+│   │   ├── <a href="https://boards.4chan.org/g/">/g/</a>
+│   │   ├── <a href="https://boards.4chan.org/b/">/b/</a>
+│   │   └── <a href="https://boards.4chan.org/e/">/e/</a>
+│   └── <a href="https://reddit.com">Reddit</a>
+│       ├── <a href="https://www.reddit.com/r/unixporn/">r/Unixporn</a>
+│       ├── <a href="https://www.reddit.com/r/The_Art_of_Rolling/">r/The Art of Rolling</a>
+│       └── <a href="https://www.reddit.com/r/hacking/">r/hacking</a>
+├──<span class="root"> Music</span>
+│   ├── <a href="https://open.spotify.com/user/31xjpdmquztlzgoqixri2ktcihnq?si=1e861374ad324997">Spotify</a>
+│   └── <a href="404">SoundCloud</a>
+└──<span class="root"> Projects</span>
+    ├── Weather App (WIP)
+    ├── Translator App (WIP)
+    └── Type Test App (WIP)
+        </pre>
+    </div>
+</body>
+</html>

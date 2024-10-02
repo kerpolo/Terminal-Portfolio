@@ -1,0 +1,84 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000000;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tree pre {
+    background-color: #000000;
+    white-space: pre;
+    overflow-x: auto;
+    margin: 0;
+}
+
+/* Style for root directories */
+.root {
+    color: green; /* Change color to green */
+    font-size: small;
+}
+
+/* Link styling */
+.tree a {
+    color: rgb(43, 43, 43); /* Change link color to blue */
+    text-decoration: none; /* Remove underline */
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000000;
+    color: #333;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center;
+    justify-content: center;
+    position: relative; /* Allows for absolute positioning of the button */
+}
+
+.tree pre {
+    background-color: #000000;
+    white-space: pre;
+    overflow-x: auto;
+    margin: 0;
+}
+
+/* Style for root directories */
+.root {
+    color: green; /* Change color to green */
+    font-size: small;
+}
+
+/* Link styling */
+.tree a {
+    color: rgb(43, 43, 43); /* Change link color */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Button styling */
+#play-button {
+    background: none; /* Remove background */
+    border: none; /* Remove border */
+    cursor: pointer; /* Change cursor to pointer */
+    position: absolute; /* Position it absolutely */
+    bottom: 20px; /* Distance from the bottom */
+    left: 20px; /* Distance from the left */
+    font-size: 24px; /* Increase font size */
+    color: #fff; /* Change button color to white */
+}
+
+h1 {
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
